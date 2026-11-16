@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VORTEX Downloader</string>
+    <string name="notification_channel_downloads_name">VORTEX Downloads</string>
+    <string name="notification_channel_downloads_desc">Active, completed, and failed media downloads</string>
+</resources>

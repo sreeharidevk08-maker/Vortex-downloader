@@ -1,0 +1,4 @@
+-keepattributes Signature,InnerClasses,EnclosingMethod
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**

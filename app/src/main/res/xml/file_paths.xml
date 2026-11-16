@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="vortex_cache" path="." />
+    <files-path name="vortex_files" path="." />
+    <external-path name="external_movies" path="Movies/VORTEX/" />
+    <external-path name="external_music" path="Music/VORTEX/" />
+</paths>

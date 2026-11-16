@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer geometric vortex ring -->
+    <path
+        android:pathData="M54,24 A30,30 0 1,1 26.2,65.2"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF2E7DFF" android:offset="0" />
+                <item android:color="#FF8B5CF6" android:offset="0.65" />
+                <item android:color="#FF22D3EE" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner arc -->
+    <path
+        android:pathData="M54,33 A21,21 0 0,1 74.5,58"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#6622D3EE"
+        android:fillColor="#00000000" />
+    <!-- Minimalist download arrow -->
+    <path
+        android:pathData="M54,37 L54,64 M43,54 L54,66 L65,54"
+        android:strokeWidth="4.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="43"
+                android:startY="37"
+                android:endX="65"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#FF22D3EE" android:offset="0" />
+                <item android:color="#FF2E7DFF" android:offset="0.55" />
+                <item android:color="#FF8B5CF6" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Base dock bar -->
+    <path
+        android:pathData="M41,72 L67,72"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFE2E8F0" />
+</vector>
